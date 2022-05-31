@@ -2,16 +2,16 @@ public class Main {
     public static void main(String[] args) {
 
 
-        employeeList[0] = new Employee("Аксенов Антон Викторович", "1", 50_000);
-        employeeList[1] = new Employee("Бацан Марина Викторовна", "1", 150_000);
-        employeeList[2] = new Employee("Шапко Александр Викторович", "2", 100_000);
-        employeeList[3] = new Employee("Власов Алексей Евгеньевич", "2", 100_000);
-        employeeList[4] = new Employee("Тиньков Дмитрий Александрович", "3", 100_000);
-        employeeList[5] = new Employee("Зурнин Владислав Евгеньевич", "3", 100_000);
-        employeeList[6] = new Employee("Горбунов Олег Юрьевич", "4", 100_000);
-        employeeList[7] = new Employee("Деревсков Максим Анатольевич", "4", 100_000);
-        employeeList[8] = new Employee("Малышкин Анатолий Анатольевич", "5", 100_000);
-        employeeList[9] = new Employee("Бочков Максим Антонович", "5", 100_000);
+        employeeList[0] = new Employee("Аксенов Антон Викторович", "1", 10_000);
+        employeeList[1] = new Employee("Бацан Марина Викторовна", "1", 10_000);
+        employeeList[2] = new Employee("Шапко Александр Викторович", "2", 10_000);
+        employeeList[3] = new Employee("Власов Алексей Евгеньевич", "2", 110_000);
+        employeeList[4] = new Employee("Тиньков Дмитрий Александрович", "3", 150_000);
+        employeeList[5] = new Employee("Зурнин Владислав Евгеньевич", "3", 20_000);
+        employeeList[6] = new Employee("Горбунов Олег Юрьевич", "4", 123_000);
+        employeeList[7] = new Employee("Деревсков Максим Анатольевич", "4", 1_000);
+        employeeList[8] = new Employee("Малышкин Анатолий Анатольевич", "5", 110_000);
+        employeeList[9] = new Employee("Бочков Максим Антонович", "5", 357_000);
 
         printEmployeeData();
         countMonthSalarySum();
